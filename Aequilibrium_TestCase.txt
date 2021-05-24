@@ -1,0 +1,17 @@
+
+Swag labs Test scenario for Login feature
+
+Functonal Test cases(Reiterate )
+
+1. Provide valid Username(standard_user) and Valid password(secret_sauce) and Verify Successfull Login
+2. Click on Login  button with both username and password field empty  and Verify that error message displayed
+3. Provide valid username and Invalid password and verify the error message displayed
+4. Provide Invalid username and valid password and verify the error message displayed
+5. Provide Invalid username and Invalid password and verify the error message displayed
+
+Compatibility Test cases
+
+1. On Chrome browser , Have successfull login and copy paste the home page url to another tab  and it should display the home page on both the tab
+2. On Chrome browser , Have successfull login and copy paste the home page url to another browser(IE)  and it should not display the home page on IE browser
+3.  On Chrome browser , Have successfull login and copy paste the home page url and close the browser and then relaunch the browser and then copy paste the URL and it should not display the home page
+
